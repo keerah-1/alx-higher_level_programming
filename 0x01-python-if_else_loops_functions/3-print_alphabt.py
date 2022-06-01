@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-for ch in range(97, 123):
-    if (f"{ch:c}") != "q" and (f"{ch:c}") != "e":
-        print("{:c}".format(ch), end="")
+for alpha_letters in range(ord('a'), ord('z')+1):
+    if alpha_letters == 'e' or alpha_letters == 'q':
+       continue
+    print("{:c}".format(alpha_letters), end="")
