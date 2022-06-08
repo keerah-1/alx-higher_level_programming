@@ -58,4 +58,4 @@ void print_python_list(PyObject *p)
 		if (strcmp(dataType, "bytes") == 0)
 			print_python_bytes(l->ob_item[i]);
 	}
-i}
+}
